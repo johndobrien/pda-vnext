@@ -1,9 +1,7 @@
 source 'https://rubygems.org'
-git_source(:github) do |repo_name|
-  repo_name = "
-  "https://github.com/
-end
+
 ruby '2.3.1'
+
 gem 'rails', '~> 5.0.1'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
